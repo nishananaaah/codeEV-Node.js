@@ -25,8 +25,12 @@
 // const Supermaan = new SuperHero("Superman")
 // console.log(Supermaan.getName())
 
-const math = require('./math')
-const {add,substact}=math  //destructuring
-console.log(add(1,2))
-console.log(substact(3,1))
+// const math = require('./math')
+// const {add,substact}=math  //destructuring
+// console.log(add(1,2))
+// console.log(substact(3,1))
+
+// const data =require('./data');//importing Json file
+// console.log(data.name);
+// console.log("nishana")
 
