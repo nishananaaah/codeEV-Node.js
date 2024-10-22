@@ -1,7 +1,8 @@
 const EventEmitter =require("node:events")
 const emiter = new EventEmitter()
 emiter.on("order-pizza", (size,topping)=>{
-    console.log(`Order recieved! Baking a ${size} Pizza with ${topping}`)
+    console.log(`Order recieved! Baking a ${size} Pizza with ${topping}`)//dispatching and responding
+    //event emiting
 });
 emiter.on("order-pizza",(size)=>{
     if(size==="large"){
