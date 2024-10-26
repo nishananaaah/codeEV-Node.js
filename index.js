@@ -1,9 +1,9 @@
-// const addfn = require('./add')
-// console.log("Hello from node.js")
-// const sum =addfn(1,2);
-// const sum2=addfn(2,3)
-// console.log(sum);
-// console.log(sum2)//module export
+const addfn = require('./add')
+console.log("Hello from node.js")
+const sum =addfn(1,2);
+const sum2=addfn(2,3)
+console.log(sum);
+console.log(sum2)//module export
 
 // require("./batman")//module wrapper
 // require("./superman")
