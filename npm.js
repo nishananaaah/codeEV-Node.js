@@ -7,7 +7,7 @@
 // greet("Nishana")
 // module.exports = greet;
 const promise = new Promise((res,rej)=>{
-    res("succes")
+    res("success")
 })
 promise.then((response)=>{
     console.log(response)
